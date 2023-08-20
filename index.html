@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: rgb(204, 204, 204);
+        }
+
+        page {
+            background: white;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 0.5cm;
+            /* box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5); */
+        }
+
+        page[size="A4"] {
+            width: 21cm;
+            height: 29.7cm;
+        }
+        
+        .name input{
+            height: 50px;
+            width: 50%;
+            font-size: 40px;
+            border: none;
+            text-align: center;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            
+        }
+        .link table input{
+            border: none;
+            width: 90%;
+            text-align: center;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            align-items: center;
+        }
+        .container{
+            text-align: center;
+            align-items: center;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <page size="A4">
+        <div class="container">
+            <div class="name">
+                    <input type="text" placeholder="Your Full Name" >
+            </div>
+            <div class="link">
+                <table style="align-items: center; margin-left: 19%;">
+                <thead>
+                <tr>
+                    <th>Email:</th>
+                    <td><input type="email" placeholder="rs388903@gmail.com">|</td>
+                    <th>GitHub:</th>
+                    <td><input type="url" placeholder="www.github.com//rahul1821/"></td>
+                </tr>
+                <tr>
+                    <th>Contact No.:</th>
+                    <td><input type="number" placeholder="+91 1234567890">|</td>
+                    <th>Linkdin</th>
+                    <td><input type="url" placeholder="www.linkdin/rahul-15-07-1996"></td>
+                </tr>
+            </thead>
+        </table>
+        <hr>
+            </div>
+
+        </div>
+        
+
+
+    </page>
+
+
+</body>
+
+</html>
